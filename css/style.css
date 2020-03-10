@@ -257,6 +257,12 @@ blockquote {
   transition: width 1s ease-in-out, left 1.5s ease-in-out;
 }
 
+#svg {
+  transition: all 1s ease;
+  transform: scale(1, 1);
+  transform-origin: 50% 50%;
+}
+
 .mybtn {
   background-color: gray;
   font-size: 12px;
